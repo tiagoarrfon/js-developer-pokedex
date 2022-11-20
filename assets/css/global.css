@@ -1,17 +1,17 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #3052b7;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
 }
 
 @media screen and (min-width: 992px) {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title id="title-pokedex">Pokedex</title>
 
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -20,11 +20,12 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/modal.css">
 </head>
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <h1>Pokedex 2.0</h1>
 
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
@@ -36,7 +37,23 @@
             </button>
         </div>
     </section>
-
+    <div class="modal-content">
+        <div class="modal">
+            <span class="bt-close" onclick="closeModal()">X</span>
+            <div id="modal-details">
+                <div class="modal-img">
+                    <span class="number-poke"></span>
+                </div>
+                <div class="name-poke"></div>
+                <div class="modal-poke-details">
+                    <span class="detail-name"></span>
+                    <div class="container">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Nosso JS -->
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>

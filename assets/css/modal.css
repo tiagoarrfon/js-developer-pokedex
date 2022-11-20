@@ -1,0 +1,91 @@
+.open-modal {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.modal-content {
+    display: none;
+}
+
+.modal {
+    opacity: 1;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    left: 5%;
+    height: 0 auto;
+    z-index: 1;
+    background-color: #335874;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #bcced3cc;
+    box-shadow: #070707cc 5px 10px;
+    color: #CCC;
+}
+
+.bt-close {
+    position: absolute;
+    background-color: #cd2f2f;
+    z-index: 10;
+    padding: 5px 10px;
+    right: 0;
+    border-radius: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.number-poke {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.modal-img {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.modal-img img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.modal-poke-details {
+    padding: 1rem;
+    position: relative;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.name-poke{
+    font-size: 1.3rem;
+    color: #070707cc;
+}
+
+.detail-name {
+    font-size: 0.9rem;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: -6%;
+    z-index: 5;
+}
+
+.container {
+    height: 1rem;
+    background-color: #CCC;
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid;
+    left: 10%;
+    right: 10%;
+}
+
+.container .progress-bar {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    max-width: 100%;
+    border-radius: 10px;
+}

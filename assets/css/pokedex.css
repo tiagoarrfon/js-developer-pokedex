@@ -6,76 +6,79 @@
     list-style: none;
 }
 
-.normal {
-    background-color: #a6a877;
+h1{
+    color: #fff;;
 }
 
+.normal {
+    background-image: linear-gradient(rgb(121, 106, 106), rgb(158, 158, 110), rgb(55, 76, 55));
+}
 .grass {
-    background-color: #77c850;
+    background-image: linear-gradient(rgb(181, 255, 129), rgb(57, 146, 45), rgb(50, 75, 50));
 }
 
 .fire {
-    background-color: #ee7f30;
+    background-image: linear-gradient(rgb(190, 77, 33), rgb(192, 127, 15), rgb(86, 73, 40));
 }
 
 .water {
-    background-color: #678fee;
+    background-image: linear-gradient(rgb(106, 108, 121), #4b76db, rgb(55, 60, 76));
 }
 
 .electric {
-    background-color: #f7cf2e;
+    background-image: linear-gradient(rgb(120, 121, 106), #d9db4b, rgb(74, 76, 55));  
 }
 
 .ice {
-    background-color: #98d5d7;
+    background-image: linear-gradient(rgb(106, 121, 119), #4bdbd6, rgb(55, 76, 75));
 }
 
 .ground {
-    background-color: #dfbf69;
+    background-image: linear-gradient(rgb(121, 115, 106), #ab6e35, rgb(76, 66, 55));
 }
 
 .flying {
-    background-color: #a98ff0;
+    background-image: linear-gradient(rgb(114, 106, 121), #794bdb, rgb(71, 55, 76));
 }
 
 .poison {
-    background-color: #a040a0;
+    background-image: linear-gradient(rgb(121, 106, 119), #d94bdb, rgb(76, 55, 75));
 }
 
 .fighting {
-    background-color: #bf3029;
+    background-image: linear-gradient(rgb(121, 106, 106), #db4b4b, rgb(76, 55, 55));
 }
 
 .psychic {
-    background-color: #f65687;
+    background-image: linear-gradient(rgb(121, 106, 114), #db4b93, rgb(76, 55, 68));
 }
 
 .dark {
-    background-color: #725847;
+    background-image: linear-gradient(rgb(118, 121, 106), #3b472b, rgb(64, 76, 55));
 }
 
 .rock {
-    background-color: #b8a137;
+    background-image: linear-gradient(rgb(121, 119, 106), #dbdb4b, rgb(75, 76, 55));
 }
 
 .bug {
-    background-color: #a8b720;
+    background-image: linear-gradient(rgb(118, 121, 106), #a4db4b, rgb(72, 76, 55));
 }
 
 .ghost {
-    background-color: #6e5896;
+    background-image: linear-gradient(rgb(106, 121, 118), #4bdba9, rgb(55, 76, 70));
 }
 
 .steel {
-    background-color: #b9b7cf;
+    background-image: linear-gradient(rgb(106, 121, 121), #4bbedb, rgb(55, 75, 76));
 }
 
 .dragon {
-    background-color: #6f38f6;
+    background-image: linear-gradient(rgb(112, 106, 121), #874bdb, rgb(66, 55, 76));
 }
 
 .fairy {
-    background-color: #f9aec7;
+    background-image: linear-gradient(rgb(120, 106, 121), #db4bd4, rgb(76, 55, 69));
 }
 
 .pokemon {
@@ -137,11 +140,11 @@
 }
 
 .pagination button {
-    padding: .25rem .5rem;
-    margin: .25rem 0;
+    padding: .3rem .5rem;
+    margin: .3rem;
     font-size: .625rem;
     color: #fff;
-    background-color: #6c79db;
+    background-color: #3fc93d;
     border: none;
     border-radius: 1rem;
 }
