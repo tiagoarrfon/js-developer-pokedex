@@ -9,6 +9,8 @@
 
 :white_check_mark: Modificações no CSS e manipulação do DOM
 
+### Demo use:
+[Pokedex 2.0](https://tiagoarrfon.github.io/js-developer-pokedex/)
 
 ### Demo screen:
 ![image](https://user-images.githubusercontent.com/104157123/202914061-77ff8404-5c0b-4e36-96e6-15623a565da1.png)
