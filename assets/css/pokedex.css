@@ -11,74 +11,74 @@ h1{
 }
 
 .normal {
-    background-image: linear-gradient(rgb(121, 106, 106), rgb(158, 158, 110), rgb(55, 76, 55));
+    background-image: linear-gradient(#796a6a, #9e9e6e, #374c37);
 }
 .grass {
-    background-image: linear-gradient(rgb(181, 255, 129), rgb(57, 146, 45), rgb(50, 75, 50));
+    background-image: linear-gradient(#b5ff81, #39922d, #324b32);
 }
 
 .fire {
-    background-image: linear-gradient(rgb(190, 77, 33), rgb(192, 127, 15), rgb(86, 73, 40));
+    background-image: linear-gradient(#be4d21, #c07f0f, #564928);
 }
 
 .water {
-    background-image: linear-gradient(rgb(106, 108, 121), #4b76db, rgb(55, 60, 76));
+    background-image: linear-gradient(#6a6c79, #4b76db, #373c4c);
 }
 
 .electric {
-    background-image: linear-gradient(rgb(120, 121, 106), #d9db4b, rgb(74, 76, 55));  
+    background-image: linear-gradient(#78796a, #d9db4b, #4a4c37);  
 }
 
 .ice {
-    background-image: linear-gradient(rgb(106, 121, 119), #4bdbd6, rgb(55, 76, 75));
+    background-image: linear-gradient(#6a7977, #4bdbd6, #374c4b);
 }
 
 .ground {
-    background-image: linear-gradient(rgb(121, 115, 106), #ab6e35, rgb(76, 66, 55));
+    background-image: linear-gradient(#79736a, #ab6e35, #4c4237);
 }
 
 .flying {
-    background-image: linear-gradient(rgb(114, 106, 121), #794bdb, rgb(71, 55, 76));
+    background-image: linear-gradient(#726a79, #794bdb, #47374c);
 }
 
 .poison {
-    background-image: linear-gradient(rgb(121, 106, 119), #d94bdb, rgb(76, 55, 75));
+    background-image: linear-gradient(#796a77, #d94bdb, #4c374b);
 }
 
 .fighting {
-    background-image: linear-gradient(rgb(121, 106, 106), #db4b4b, rgb(76, 55, 55));
+    background-image: linear-gradient(#796a6a, #db4b4b, #4c3737);
 }
 
 .psychic {
-    background-image: linear-gradient(rgb(121, 106, 114), #db4b93, rgb(76, 55, 68));
+    background-image: linear-gradient(#796a72, #db4b93, #4c3744);
 }
 
 .dark {
-    background-image: linear-gradient(rgb(118, 121, 106), #3b472b, rgb(64, 76, 55));
+    background-image: linear-gradient(#76796a, #3b472b, #404c37);
 }
 
 .rock {
-    background-image: linear-gradient(rgb(121, 119, 106), #dbdb4b, rgb(75, 76, 55));
+    background-image: linear-gradient(#79776a, #dbdb4b, #4b4c37);
 }
 
 .bug {
-    background-image: linear-gradient(rgb(118, 121, 106), #a4db4b, rgb(72, 76, 55));
+    background-image: linear-gradient(#76796a, #a4db4b, #484c37);
 }
 
 .ghost {
-    background-image: linear-gradient(rgb(106, 121, 118), #4bdba9, rgb(55, 76, 70));
+    background-image: linear-gradient(#6a7976, #4bdba9, #374c46);
 }
 
 .steel {
-    background-image: linear-gradient(rgb(106, 121, 121), #4bbedb, rgb(55, 75, 76));
+    background-image: linear-gradient(#6a7979, #4bbedb, #374b4c);
 }
 
 .dragon {
-    background-image: linear-gradient(rgb(112, 106, 121), #874bdb, rgb(66, 55, 76));
+    background-image: linear-gradient(#706a79, #874bdb, #42374c);
 }
 
 .fairy {
-    background-image: linear-gradient(rgb(120, 106, 121), #db4bd4, rgb(76, 55, 69));
+    background-image: linear-gradient(#786a79, #db4bd4, #4c3745);
 }
 
 .pokemon {
